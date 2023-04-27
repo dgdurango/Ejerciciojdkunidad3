@@ -1,0 +1,15 @@
+
+package EjercicioTema3;
+
+public class ConcatenarTextos {
+    public static void main(String[] args) {
+        String[] nombres = {"Juan", "María", "Pedro", "Laura"};
+        String resultado = "";
+
+        for (int i = 0; i < nombres.length; i++) {
+            resultado += nombres[i] + " ";
+        }
+
+        System.out.println("Los nombres concatenados son: " + resultado);
+    }
+}
